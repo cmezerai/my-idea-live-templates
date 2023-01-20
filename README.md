@@ -43,9 +43,9 @@ will generate a parametrized unit test (junit 5 ), with a method source and stre
 
         // Assert
         Assertions.assertAll(
-        () -> assertThat(firstString).isEmpty(),
-        () -> assertThat(secondString).isEqualTo(""),
-        () -> assertThat(thirdString).isNotNull()
+            () -> assertThat(firstString).isEmpty(),
+            () -> assertThat(secondString).isEqualTo(""),
+            () -> assertThat(thirdString).isNotNull()
         );
 
         }
